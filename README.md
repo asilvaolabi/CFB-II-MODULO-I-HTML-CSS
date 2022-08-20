@@ -1,6 +1,6 @@
 # Ciclo Formativo PretaLab | Módulo I - HTML e CSS 🚀 
 
-![image](https://i.gifer.com/7jNO.gif)
+![image](https://media.giphy.com/media/968taxwNaAXqZASdcn/giphy.gif)
 
 ## `Sobre o módulo` 
 Nossas aulas serão divididas por pastas, ao final de cada aula, eu atualizarei o meu reposítório, para vocês conseguirem acompanhar(mas não é só para copiar hein, é só para se basear).
