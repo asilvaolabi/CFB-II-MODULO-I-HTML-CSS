@@ -38,6 +38,8 @@ botões. Inspecionado o html
 
 ✓		10/09 |	Aula prática - Deploy do projeto final
 
+<br>
+
 ## `Protótipo do projeto final`
 
 - [link do protótipo do projeto final](https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?node-id=0%3A1)
