@@ -1,0 +1,32 @@
+body {
+    display: flex; /*alinhando itens um do lado do outro*/
+    align-items: center;
+    background-color: #EAEAEA;
+    height: 100vh;
+}
+
+.container {
+    display: flex; /*alinhando itens um do lado do outro*/
+    width: 100%;
+    height: 300px;
+}
+
+.item1 {
+    background-color: #ff0000;
+    width: 100%;
+    border: 30px solid #ffff00;
+    text-align: center;
+}
+
+.item2 {
+    background-color: #008000;
+    width: 100%;
+    border: 30px solid #ff000d;
+    text-align: center;
+}
+
+.item {
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 80px;
+}

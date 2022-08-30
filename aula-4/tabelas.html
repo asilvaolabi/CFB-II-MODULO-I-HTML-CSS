@@ -1,0 +1,147 @@
+<!DOCTYPE html5>
+<!-- https://www.homehost.com.br/blog/criar-sites/tabela-html/ -->
+<html lang="pt-br">
+    <head>
+    <title>Tabelas em HTML</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Listas e Tabelas">
+    </head>
+    <body>
+        <h1>Exemplo de Tabela</h1>
+        <br> 
+        <!-- As tabelas são listas de dados em duas dimensões e são compostas por linhas e colunas. Cada elemento da tabela é uma célula -->
+
+        <!-- A tag utilizada para criar uma tabela HTML é a tag <table></table> -->
+
+        <h2>Estrutura de Tabela</h2>
+        <br> 
+        <table border="4">
+            <!-- tr são as linhas -->
+            <tr>
+                <!-- th são os titulos -->
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+
+            <tr>
+                <!-- tdsão as colunas -->
+                <td>Amanda</td>
+                <td>34</td>
+                <td>Deva</td>
+            </tr>
+            <tr>
+                <td>Ted</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Ralf</td>
+                <td>26</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+        <br>
+
+        <!-- Podemos ainda aplicar o <th> para títulos verticais, ou seja, na primeira coluna. -->
+        <table border="1">
+            <tr>
+                <th>Idade:</th>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th>Idade:</th>
+                <td>34</td>
+            </tr>
+        </table>
+
+        <h2>Tags de Estrutura de Tabela</h2>
+        <br><br>
+
+        <!-- também há tags que servem para estruturar melhor a tabela. São elas:
+
+        <thead></thead> – Esta tag representa o cabeçalho da tabela, geralmente composta por células título;
+        <tbody></tbody> – Essa tag representa o corpo da tabela;
+        <tfoot></tfoot> – Essa tag representa o rodapé da tabela. -->
+        <table border="1">
+            <thead>
+            <tr>
+                <th>titulo 1</th>
+                <th>titulo 2</th>
+                <th>titulo 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Body1 linha1</td>
+                <td>Body2 linha1</td>
+                <td>Body3 linha1</td>
+            </tr>
+            <tr>
+                <td>Body1 linha2</td>
+                <td>Body2 linha2</td>
+                <td>Body3 linha2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <td>Foot 1</td>
+                <td>Foot 2</td>
+                <td>Foot 3</td>
+            </tfoot>
+         </table> <br><br>
+
+         <!-- Criando células vazias -->
+         <h2>Criando células vazias</h2>
+         <table border="1">
+            <tr>
+                <th>&nbsp;</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Item 1</td>
+                <td>R$10,00</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>R$20,00</td>
+            </tr>
+        </table>
+
+        <h2>Mesclando células (colspan)</h2><br>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <!-- eu quero mesclar duas colunas -->
+                <th colspan="2">Telefones</th>
+            </tr>
+
+            <tr>
+                <td>Ted</td>
+                <td>8888-8888</td>
+                <td>9999-9999</td>
+            </tr>
+
+            <tr>
+                <td>Junior</td>
+                <td>1111-1111</td>
+                <td>2222-2222</td>
+            </tr>
+        </table><br>
+
+        <h2>Mesclando células (rowspan)</h2><br>
+        <table border="1">
+            <tr>
+              <th>Primeiro Nome:</th>
+              <td>Ted</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Telefone:</th>
+              <td>8888-8888</td>
+            </tr>
+            
+            <tr>
+              <td>9999-9999</td>
+            </tr>
+        </table><br>
+    </body>
+</html>
